@@ -1,0 +1,66 @@
+body
+{
+	background: url('9.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+.one , .two , .three , .four , .five
+{
+	background: white;
+	margin:30px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 100px rgba(0,0,0,1);
+}
+h2
+{
+	background: #2980b9;
+ 	color: white;
+ 	margin:0px;
+ 	padding: 10px 20px;
+ 	text-transform: uppercase;
+ 	font-size: 24px;
+ 	font-weight: normal;
+}
+ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li
+{
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	font-size:1.5em;
+}
+.total
+{
+	background: lightblue;
+	text-align: right; 
+}
+#cost
+{
+	text-align: right;
+}
+.five
+{
+	width:30em;
+	margin:100px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.five li
+{
+	text-align: left;
+}
+@media (max-width: 350px)
+{
+	li
+	{
+		font-size: 1em;
+	}
+}
