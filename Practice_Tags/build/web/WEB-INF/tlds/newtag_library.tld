@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>newtag_library</short-name>
+  <uri>/tlds/newtag_library</uri>
+  <tag>
+    <name>mycustomtag</name>
+    <tag-class>tp.mycustomtag</tag-class>
+  </tag>
+  <tag>
+      <name>cube</name>
+      <tag-class>tp.cube</tag-class>
+      <attribute>
+          <name>ber</name>
+          <required>true</required>
+      </attribute>
+  </tag>
+  <tag>
+      <name>power</name>
+      <tag-class>tp.power</tag-class>
+      <attribute>
+          <name>b</name>
+          <required>true</required>
+      </attribute>
+      <attribute>
+          <name>pow</name>
+          <required>true</required>
+      </attribute>
+  </tag>
+</taglib>
